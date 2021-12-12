@@ -2442,7 +2442,9 @@ img.lazy-image.loaded{
     counter-reset:slides-num
 }
 .services-section .row .service-block{
-    counter-increment:slides-num
+    counter-increment:slides-num;
+    width: 270px;
+    left: 196px;
 }
 .services-section .row .service-block .inner-box:before{
     content:"0" counter(slides-num) "";
