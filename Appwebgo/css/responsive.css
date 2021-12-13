@@ -738,8 +738,9 @@
         font-size:30px
     }
     .sec-title h2{
-        font-size:36px;
-        line-height:1.15em
+        font-size:24px;
+        line-height:1.15em;
+
     }
     .trusted-section .featured-block-two,.agency-section .featured-block-two{
         padding-left:0;
@@ -999,7 +1000,12 @@
     .main-footer__three .bottom-footer .social-links{
         margin-top:10px
     }
+ .services-section .row .service-block {
+    counter-increment: slides-num;
+    width: 270px;
+    left: 25px;
 }
+
 @media only screen and (min-device-width : 320px) and (max-width:479px){
   .side-menu__block-inner{
     max-width: 152px;
