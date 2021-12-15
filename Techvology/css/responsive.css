@@ -740,6 +740,7 @@
     .sec-title h2{
         font-size:24px;
         line-height:1.15em;
+        margin-right: -64px;
 
     }
     .trusted-section .featured-block-two,.agency-section .featured-block-two{
