@@ -703,6 +703,11 @@
     background: #6c757d ;
     width: 51%;
   }
+  .logo h3{
+    font-size: 34px;
+    width: 80px;
+
+  }
     .banner-carousel .content-box h1{
         font-size:46px
     }
